@@ -30,10 +30,10 @@ class RemoveFromCart extends React.Component {
   // this gets called as soon as we get a respons back from
   // server after a mutation has been performed
   update = (cache, payload) => {
-    console.log('running remove from cart update fn')
+    // console.log('running remove from cart update fn')
     // 1. first read the cache
     const data = cache.readQuery({ query: CURRENT_USER_QUERY })
-    console.log(data)
+    // console.log(data)
     // 2. remove that item from the cart
     const cartItemId = payload.data.removeFromCart.id
     data.me.cart = data.me.cart.filter(cartItem => cartItem.id !== cartItemId)
@@ -72,3 +72,4 @@ class RemoveFromCart extends React.Component {
 }
 
 export default RemoveFromCart
+export { REMOVE_FROM_CART_MUTATION }
