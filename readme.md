@@ -2,6 +2,8 @@
 
 Web app built from [Advanced React & GraphQL](https://advancedreact.com) course by [Wes Bos](https://WesBos.com). Very fun course. Highly recommended.
 
+![Screenshot](https://raw.githubusercontent.com/sschottler/Advanced-React/master/tastytreats.PNG)
+
 ## Frontend:
 
 - React
