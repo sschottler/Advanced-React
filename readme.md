@@ -1,14 +1,28 @@
-![Advanced React & GraphQL](https://advancedreact.com/images/ARG/arg-facebook-share.png)
-
 # Advanced React & GraphQL
 
-These are the starter files and stepped solutions for the [Advanced React & GraphQL](https://AdvancedReact.com) course by [Wes Bos](https://WesBos.com/).
+Web app built from [Advanced React & GraphQL](https://advancedreact.com) course by [Wes Bos](https://WesBos.com). Very fun course. Highly recommended.
 
-## Getting Help
+## Frontend:
 
-The best place to get help is in the #advanced-react slack room - there is a link in your course dashboard.
+- React
+- SSR with Next.js
+- styled-components
+- Apollo GraphQL Client - caching, queries, mutations
+- Jest/Enzyme testing
+- Stripe checkout
+- Image storage/preprocessing with Cloudinary
+- Search/Autocomplete with Downshift
 
-## FAQ
+## Backend:
 
-**Q:** Which Extensions for VS Code is Wes using?  
-**A:** All my extensions are listed on [my dotfiles repo](https://github.com/wesbos/dotfiles), but specifically this course uses [ESLint](https://github.com/Microsoft/vscode-eslint) and [Prettier](https://github.com/prettier/prettier-vscode).
+- Yoga GraphQL Server
+- Prisma GraphQL DB interface with Postgres
+- JWT authentication
+- Email with mailtrap.io
+
+## Hosted on heroku:
+
+- Frontend website:
+  https://tastytreats-next-prod.herokuapp.com/
+- Backend GraphQL playground:
+  https://tastytreats-yoga-prod.herokuapp.com/
